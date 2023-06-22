@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start" : "NODE_ENV=staging nodemon index",
+    "production" : "NODE_ENV=production nodemon index"
+  },
+  "dependencies": {
+    "formidable": "^2.1.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.22",
+    "upper-case": "^2.0.2"
+  }
+}
